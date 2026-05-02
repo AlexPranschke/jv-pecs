@@ -9,6 +9,9 @@ public class TruckProducer implements MachineProducer<Truck> {
 
     @Override
     public List<Truck> get() {
+        trucks.add (new Truck());
+        trucks.add (new Truck());
+        trucks.add (new Truck());
         return new ArrayList<>(trucks);
     }
 }
